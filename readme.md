@@ -1,4 +1,6 @@
-# Gmail 災害情報 LINE 通知（Messaging API 版 / 二重通知対策版）
+*** 消防団員に送られるメールをgmailで受信してLINEに流す物です。以下、READMEからプログラムまで全て無料geminiに書かせました ***
+
+# Gmail 災害情報 LINE 通知（Messaging API 版 / 二重通知対策版
 
 Gmail で受信した災害情報メールのうち、指定した条件（対象地域・分団など）に一致する「発生」メールのみを抽出し、LINE Messaging API を通じて LINE グループへ自動通知する Google Apps Script（GAS）です。
 
